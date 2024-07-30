@@ -6,7 +6,7 @@
 
 A(m,n) = { n+1 , if m=0 ; A(m-1,1) , if n=0 ; A(m-1,A(m,n-1) , otherwise ; }
 
-實作`AckermannsFunction.cpp`,遞迴函式:
+實作`HW101.cpp`,遞迴函式:
 
 ```cpp
 int funA(int m,int n){
